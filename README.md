@@ -23,3 +23,15 @@ cmake --build build
 ```
 
 According to the example the executable file path `./build/`
+
+## Emscripten with cmake
+create emscipten build-system with cmake
+```bash
+emcmake cmake -S . -B ./build
+```
+
+create `.wasm` and `.js` files
+
+```bash
+cmake --build build
+```
